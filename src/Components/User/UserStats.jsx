@@ -21,7 +21,7 @@ const UserStats = () => {
   if (error) return <Error error={error} />;
   if (data)
     return (
-      <React.Suspense>
+      <React.Suspense fallback={<div></div>}>
         <Head title="Estatísticas" />
         <UserStatsGraphs data={data} />
       </React.Suspense>
