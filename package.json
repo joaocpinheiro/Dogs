@@ -1,5 +1,5 @@
 {
-  "homepage": "https://joaocpinheiro.github.io/Dogs",
+  "homepage": "Dogs/",
   "name": "dogs",
   "private": true,
   "version": "0.0.0",
@@ -16,7 +16,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.2",
+    "react-router-dom": "^6.15.0",
     "victory": "^36.6.11",
     "vite-plugin-svgr": "^3.2.0"
   },
