@@ -12,7 +12,7 @@ const Header = () => {
       <nav className={`${styles.nav} container`}>
         <Link
           className={`${styles.logo}`}
-          to={`/Dogs/${(<Home />)}`}
+          to={`/Dogs/`}
           aria-label="Dogs - Home"
         >
           <Dogs />
